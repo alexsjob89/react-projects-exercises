@@ -1,7 +1,20 @@
+import React, { Component } from "react";
 import "./App.css";
+import RefsDemo from "./componets/RefsDemo";
+// import "./appStyle.css";
 
-function App() {
-  return <div className="App"></div>;
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <RefsDemo />
+        {/* <ParentComp /> */}
+        {/* <Table /> */}
+        {/* <Form /> */}
+        {/* <LifecircleA /> */}
+        {/* <FragmentDemo /> */}
+      </div>
+    );
+  }
 }
-
 export default App;
